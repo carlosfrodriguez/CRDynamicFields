@@ -8,6 +8,9 @@
     <License>GNU AFFERO GENERAL PUBLIC LICENSE Version 3, November 2007</License>
     <Description Lang="en">The CR Dynamic Fields Package.</Description>
     <Filelist>
+        <!--
+        <File Permission="644" Location="doc/en/CRDynamicFields.txt"/>
+        -->
         <File Permission="644" Location="Kernel/Config/Files/CRDynamicFields.xml"/>
         <File Permission="644" Location="Kernel/Modules/AdminCRDynamicFieldRadioButton.pm"/>
         <File Permission="644" Location="Kernel/Output/HTML/Standard/AdminCRDynamicFieldRadioButton.dtl"/>
