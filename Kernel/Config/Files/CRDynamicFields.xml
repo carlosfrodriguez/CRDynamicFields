@@ -2,7 +2,7 @@
 <otrs_config version="1.0" init="Application">
     <ConfigItem Name="DynamicFields::Driver###RadioButton" Required="0" Valid="1">
         <Description Translatable="1">DynamicField driver registration.</Description>
-        <Group>CRMoreDynamicFields</Group>
+        <Group>CRDynamicFields</Group>
         <SubGroup>DynamicFields::Driver::Registration</SubGroup>
         <Setting>
             <Hash>
@@ -14,7 +14,7 @@
     </ConfigItem>
    <ConfigItem Name="Frontend::Module###AdminCRDynamicFieldRadioButton" Required="0" Valid="1">
         <Description Translatable="1">Frontend module registration for the agent interface.</Description>
-        <Group>CRMoreDynamicFields</Group>
+        <Group>CRDynamicFields</Group>
         <SubGroup>Frontend::Admin::ModuleRegistration</SubGroup>
         <Setting>
             <FrontendModuleReg>
