@@ -1,18 +1,18 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <otrs_config version="1.0" init="Application">
-    <ConfigItem Name="DynamicFields::Backend###RadioButton" Required="0" Valid="1">
-        <Description Translatable="1">DynamicField backend registration.</Description>
+    <ConfigItem Name="DynamicFields::Driver###RadioButton" Required="0" Valid="1">
+        <Description Translatable="1">DynamicField driver registration.</Description>
         <Group>CRMoreDynamicFields</Group>
-        <SubGroup>DynamicFields::Backend::Registration</SubGroup>
+        <SubGroup>DynamicFields::Driver::Registration</SubGroup>
         <Setting>
             <Hash>
                 <Item Key="DisplayName" Translatable="1">Radio Button</Item>
-                <Item Key="Module">Kernel::System::DynamicField::Backend::RadioButton</Item>
-                <Item Key="ConfigDialog">AdminDynamicFieldRadioButton</Item>
+                <Item Key="Module">Kernel::System::DynamicField::Driver::CRRadioButton</Item>
+                <Item Key="ConfigDialog">AdminCRDynamicFieldRadioButton</Item>
             </Hash>
         </Setting>
     </ConfigItem>
-   <ConfigItem Name="Frontend::Module###AdminDynamicFieldRadioButton" Required="0" Valid="1">
+   <ConfigItem Name="Frontend::Module###AdminCRDynamicFieldRadioButton" Required="0" Valid="1">
         <Description Translatable="1">Frontend module registration for the agent interface.</Description>
         <Group>CRMoreDynamicFields</Group>
         <SubGroup>Frontend::Admin::ModuleRegistration</SubGroup>
