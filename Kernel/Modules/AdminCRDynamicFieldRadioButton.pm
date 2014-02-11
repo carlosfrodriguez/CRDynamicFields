@@ -736,9 +736,8 @@ sub _ShowScreen {
         $ReadonlyInternalField = 'readonly="readonly"';
     }
 
-
     # create columns option list
-    my %ColumnsData = map { $_ => $_ } (1 .. 20);
+    my %ColumnsData = map { $_ => $_ } ( 1 .. 20 );
 
     my $ColumnsStrg = $Self->{LayoutObject}->BuildSelection(
         Data       => \%ColumnsData,
@@ -747,7 +746,6 @@ sub _ShowScreen {
         Class      => 'W50pc',
         Sort       => 'NumericKey',
     );
-
 
     # generate output
     $Output .= $Self->{LayoutObject}->Output(

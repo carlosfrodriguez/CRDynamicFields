@@ -169,10 +169,10 @@ sub EditFieldRender {
 
     ITEMID:
     for my $ItemID ( sort keys %{$PossibleValues} ) {
-        $ColumnItemCounter ++;
+        $ColumnItemCounter++;
 
         my $Selected = '';
-        if ( $ItemID eq $Value ){
+        if ( $ItemID eq $Value ) {
             $Selected = 'selected="Selected"';
         }
 
@@ -186,8 +186,8 @@ EOF
 <div class="Clear"></div>
 EOF
 
-        # reset column counter for the next row
-        $ColumnItemCounter = 0;
+            # reset column counter for the next row
+            $ColumnItemCounter = 0;
         }
     }
 
